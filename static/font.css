@@ -1,0 +1,10 @@
+@font-face {
+	font-family: Vladivostok;
+	src: url(VladivostokRegular.woff2);
+}
+
+@font-face {
+	font-family: Vladivostok;
+	src: url(VladivostokBold.woff2);
+	font-weight: bold;
+}
