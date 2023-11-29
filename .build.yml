@@ -1,0 +1,18 @@
+image: alpine/edge
+oauth: pages.sr.ht/PAGES:RW
+packages:
+  - hut
+  - zola
+environment:
+  site: finnala.srht.site
+sources:
+  - https://git.sr.ht/~finnala/personal-website
+tasks:
+  - build: |
+    cd personal-website
+    zola build
+  - package: |
+    cd personal-website
+    tar -C public -cvz . > ../site.tar.gz
+  - upload: |
+      hut pages publish -d $site site.tar.gz
