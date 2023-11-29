@@ -5,8 +5,6 @@ packages:
   - zola
 environment:
   site: finnala.srht.site
-sources:
-  - https://git.sr.ht/~finnala/personal-website
 tasks:
   - build: |
       cd personal-website
