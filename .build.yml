@@ -4,7 +4,7 @@ packages:
   - hut
   - zola
 environment:
-  site: finnala.srht.site
+  site: finnala.dev
 tasks:
   - build: |
       cd personal-website
