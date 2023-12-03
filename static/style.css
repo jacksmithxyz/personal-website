@@ -55,12 +55,14 @@ code {
 h1 {
 	font-size: 2rem;
 	font-weight: bold;
+	letter-spacing: -0.025em;
 	margin-bottom: 1rem;
 }
 
 h3 {
 	font-size: 1.5rem;
 	font-weight: bold;
+	letter-spacing: -0.025em;
 	margin-bottom: 1rem;
 }
 
