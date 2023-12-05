@@ -87,7 +87,22 @@ ul {
 	margin-bottom: 2rem;
 }
 
+.blog-posts {
+	margin-left: 0;
+}
+
+.blog-post {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 0;
+}
+
 .links {
 	display: flex;
 	gap: 1rem;
+}
+
+.subtext {
+	color: var(--subtext-color);
+	font-family: monospace;
 }

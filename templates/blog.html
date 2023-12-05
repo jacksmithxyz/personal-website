@@ -3,9 +3,9 @@
 {% block content %}
 <h1>{{ section.title }}</h1>
 <div>
-	<ul>
+	<ul class="blog-posts">
 		{% for page in section.pages %}
-		<li><a href="{{ page.permalink | safe }}">{{ page.title }}</a> {{ page.date | date(format="%d %b %Y") }}</li>
+		<li class="blog-post"><a href="{{ page.permalink | safe }}">{{ page.title }}</a> <span class="subtext">{{ page.date | date(format="%d %b %Y") }}</span></li>
   		{% endfor %}
 	</ul>
 	<p></p>
