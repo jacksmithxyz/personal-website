@@ -1,35 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>finnala's website</title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>finnala's website</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
-
-<body>
-    <header>
-        <nav>
-            <a href="/">home</a>
+    <body>
+        <header>
+            <nav>
+                <a href="/">home</a>
+                <div class="links">
+                    <a href="/blog">blog</a>
+                    <a href="mailto:finnala@finnala.dev">contact</a>
+                </div>
+            </nav>
+        </header>
+        <main>{% block content %} {% endblock %}</main>
+        <footer>
             <div class="links">
-                <a href="/blog">blog</a>
-                <a href="mailto:finnala@finnala.dev">contact</a>
+                <a href="https://twitter.com/finnala.dev">twitter</a>
+                <a href="https://discuss.systems/@jackwsmith">mastodon</a>
+                <a href="https://youtube.com/@finnala">youtube</a>
+                <a href="https://github.com/finnala">github</a>
+                <a href="/atom.xml">rss</a>
             </div>
-        </nav>
-    </header>
-    <main>
-        {% block content %} {% endblock %}
-    </main>
-    <footer>
-        <div class="links">
-            <a href="https://youtube.com/@finnala">youtube</a>
-            <a href="https://sr.ht/~finnala">sr.ht</a>
-            <a href="https://github.com/finnala">github</a>
-            <a href="/atom.xml">rss</a>
-        </div>
-        <p>© finnala 2023.</p>
-    </footer>
-</body>
-
+            <p>© finnala 2023.</p>
+        </footer>
+    </body>
 </html>
