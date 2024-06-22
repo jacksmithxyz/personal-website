@@ -3,7 +3,7 @@ title = "Why I'm Learning Lua in 2024"
 date = 2024-05-22
 +++
 
-There is an abosulte wealth of programming languages to choose from these days, and recently I’ve decided to pick up Lua.
+There is an absolute wealth of programming languages to choose from these days, and recently I’ve decided to pick up Lua.
 
 So out of all of the languages out there, why Lua?
 
