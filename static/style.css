@@ -2,10 +2,9 @@
 @import "font.css";
 
 :root {
-    --bg-color: #1e1e2e;
+    --bg-color: #181825;
     --text-color: #cdd6f4;
-    --subtext-color: #a6adc8;
-    --overlay-color: #a6adc8;
+    --subtext-color: #b4befe;
     --link-color: #89b4fa;
 }
 
@@ -23,6 +22,10 @@ body {
 a {
     color: var(--link-color);
     text-decoration: underline;
+}
+
+p code {
+    background-color: #11111b;
 }
 
 a:hover {
