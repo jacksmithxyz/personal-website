@@ -41,7 +41,7 @@ footer {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    gap: 1rem;
     margin-bottom: 2rem;
 }
 
