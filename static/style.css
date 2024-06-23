@@ -34,9 +34,7 @@ a:hover {
 
 footer {
     display: flex;
-    flex-direction: column;
     gap: 1rem;
-    color: var(--subtext-color);
 }
 
 nav {
@@ -97,11 +95,6 @@ ul {
     display: flex;
     justify-content: space-between;
     margin-left: 0;
-}
-
-.links {
-    display: flex;
-    gap: 1rem;
 }
 
 .subtext {
