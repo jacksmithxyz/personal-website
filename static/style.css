@@ -25,7 +25,9 @@ a {
 }
 
 p code {
+    padding: 0.125rem;
     background-color: #11111b;
+    border-radius: 5px;
 }
 
 a:hover {
