@@ -11,6 +11,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+	line-height: 1.5;
     margin: 0 auto;
     max-width: 42rem;
     padding: 2rem;
@@ -45,7 +46,6 @@ nav {
 
 p {
 	font-size: 1.125rem;
-    line-height: 1.5;
     margin-bottom: 2rem;
 }
 
@@ -68,10 +68,6 @@ h3 {
 
 img {
     max-width: 100%;
-}
-
-li {
-    line-height: 1.5;
 }
 
 pre {
