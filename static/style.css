@@ -18,6 +18,7 @@ body {
 }
 
 a {
+	font-size: 1.125rem;
     color: var(--link-color);
     text-decoration: underline;
 }
