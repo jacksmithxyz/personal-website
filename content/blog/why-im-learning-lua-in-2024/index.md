@@ -49,7 +49,7 @@ The course uses Love2D, a kind of game engine (more like a framework?) built in 
 
 I think this is great because it will help me understand more lower-level game development concepts, and also I quite like the coding aspect of it.
 
-I’m also a big believer in VDD (Vibe Driven Development). I likethe name Love2D. Sounds cool. Community seems nice. Has good vibes.
+I’m also a big believer in VDD (Vibe Driven Development). I like the name Love2D. Sounds cool. Community seems nice. Has good vibes.
 
 Lua apparently also has a reputation for being this kind of language that sits on top of super-fast embedded or low-level applications, to make use of the speed but with a nice programming experience. I think we can see this in both Neovim (written in C) and Love2D (C++ as previously mentioned).
 
