@@ -75,7 +75,7 @@ li {
 }
 
 pre {
-    font-family: monospace;
+    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
     padding: 1rem;
     margin-bottom: 2rem;
     overflow-x: auto;
