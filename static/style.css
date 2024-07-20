@@ -83,12 +83,14 @@ pre {
 
 ul {
     list-style-type: disc;
+	font-size: 1.125rem;
     margin-left: 1rem;
     margin-bottom: 2rem;
 }
 
 .blog-posts {
 	list-style-type: none;
+	font-size: 1rem;
     margin-left: 0;
 }
 
