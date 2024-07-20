@@ -88,23 +88,19 @@ ul {
 }
 
 .blog-posts {
+	list-style-type: none;
     margin-left: 0;
 }
 
 .blog-post {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 0;
+	margin-bottom: 2.5rem;
+}
+
+.blog-post h3 {
+	margin-bottom: 0;
 }
 
 .subtext {
     color: var(--subtext-color);
     font-family: monospace;
-}
-
-@media screen and (max-width: 768px) {
-    .blog-post {
-        flex-direction: column;
-        margin-bottom: 1rem;
-    }
 }
