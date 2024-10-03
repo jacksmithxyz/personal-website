@@ -3,22 +3,39 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
-        <title>finnala's website</title>
+        <title>jacksmith.xyz</title>
         <link rel="stylesheet" href="/style.css" />
     </head>
+
     <body>
         <header>
-            <nav>
-                <a href="/">home</a>
-                <a href="/blog">blog</a>
-            </nav>
+            <div>
+                <nav>
+                    <div>
+                        <h1><a href="/">jacksmith.xyz</a></h1>
+                    </div>
+                    <div class="nav-links">
+                        <p><a href="/blog">posts</a></p>
+                        <p><a href="/about">about</a></p>
+                    </div>
+                </nav>
+            </div>
         </header>
         <main>{% block content %} {% endblock %}</main>
         <footer>
-            <a href="https://youtube.com/@finnala">YouTube</a>
-            <a href="https://github.com/finnala">GitHub</a>
-			<a href="https://read.cv/jacksmith">CV</a>
-            <a href="/atom.xml">RSS</a>
+            <div class="footer-section">
+                <p><a href="https://github.com/jacksmithxyz">github</a></p>
+                <p><a href="https://youtube.com/@jacksmithxyz">youtube</a></p>
+                <p>
+                    <a href="mailto:jacksmithxyz@protonmail.com">email</a>
+                </p>
+                <p>
+                    <a href="/atom.xml">rss</a>
+                </p>
+            </div>
+            <div class="footer-section">
+                <p>powered by <a href="https://www.getzola.org/">zola</a></p>
+            </div>
         </footer>
     </body>
 </html>

@@ -1,24 +1,28 @@
 {% extends "base.html" %} {% block content %}
-
-<p>Hi, I'm Jack. Welcome to my personal website.</p>
-<p>I like programming and writing. I'm an enjoyer of tea, fromsoftware games, and fantasy novels.</p>
-
-<h3>about me</h3>
-<p>
-    I'm an independent software developer and author from the UK. I've spent the
-    last few years working at hyper-growth startups creating content, wrangling
-    data, and rendering <code>JSON</code>.
-</p>
-<p>
-I'm interested in basically anything to do with computers, and I'm currently exploring backend, game development, systems, linux, etc. My goal is to learn and build in public on these topics on my website.
-</p>
-<p>
-    I'm a curious and exceptionally fast learner, and I'm currently seeking
-    positions where I can do meaningful work, and learn and improve at my craft
-    改善 (<a href="https://wikipedia.org/wiki/Kaizen">kaizen</a>).
-</p>
-<p>
-    If you want to work with me or just say hi, feel free to reach out at
-    <code>finnala[at]finnala[dot]dev</code>.
-</p>
+<div>
+    <h2>brief</h2>
+    <p>
+        independent/freelance technical content writer by day. programming for
+        fun. interested in crypto, systems, cli tools, etc.
+    </p>
+</div>
+<div>
+    <h1>projects</h1>
+    <p>
+        <a href="https://how2neovim.io">how2neovim.io</a> - an educational
+        website on neovim
+    </p>
+</div>
+<div>
+    <h2>recent posts 📝</h2>
+    {% set blog_section = get_section(path="blog/_index.md") %}
+    <ul class="blog-posts">
+        {% for page in blog_section.pages | slice(end=5) %}
+        <li class="blog-post">
+            <p><a href="{{ page.permalink | safe }}">{{ page.title }}</a></p>
+        </li>
+        {% endfor %}
+    </ul>
+    <p></p>
+</div>
 {% endblock content %}

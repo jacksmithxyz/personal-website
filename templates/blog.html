@@ -1,16 +1,14 @@
-{% extends "base.html" %}
-
-{% block content %}
-<h1>{{ section.title }}</h1>
+{% extends "base.html" %} {% block content %}
 <div>
-	<ul class="blog-posts">
-		{% for page in section.pages %}
-		<li class="blog-post">
-			<h3><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h3>
-			<span class="subtext">{{ page.date | date(format="%d %b %Y") }}</span>
-		</li>
-  		{% endfor %}
-	</ul>
-	<p></p>
+    <h2>blog posts</h2>
+    <p>devlogs, articles, notes, and everything else all in one place. 📝</p>
+    <ul class="blog-posts">
+        {% for page in section.pages %}
+        <li class="blog-post">
+            <p><a href="{{ page.permalink | safe }}">{{ page.title }}</a></p>
+        </li>
+        {% endfor %}
+    </ul>
+    <p></p>
 </div>
 {% endblock content %}
