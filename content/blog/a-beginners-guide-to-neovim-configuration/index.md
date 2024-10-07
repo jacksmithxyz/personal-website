@@ -53,11 +53,11 @@ The runtimepath is a group of directories that Neovim will search inside of when
 
 Here’s part of what running `:h runtimepath` in Neovim opens:
 
-![A screenshot of what running:h runtimepath in Neovim opens. Includes text on the directories it searches, mostly XDG config and data dirs.](runtimepath.png)
+![A screenshot of what running:h runtimepath in Neovim opens. Includes text on the directories it searches, mostly XDG config and data dirs.](runtimepath.webp)
 
 The first image lists all of the parent directories included on the runtimepath. Most of these are internal to Neovim or not intended for user use, but it also includes the user’s config directory (`$XDG_CONFIG_HOME/nvim`) — hence why we can configure it.
 
-![A screenshot of what running :h runtimepath in Neovim opens. Includes a list of the directories which are searched for runtime files.](directories.png)
+![A screenshot of what running :h runtimepath in Neovim opens. Includes a list of the directories which are searched for runtime files.](directories.webp)
 
 The second image lists all of the files and folders that will be searched at runtime, from within those parent directories in the first image.
 
