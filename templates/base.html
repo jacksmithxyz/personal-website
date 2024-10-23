@@ -10,17 +10,15 @@
 
     <body>
         <header>
-            <div>
                 <nav>
-                    <div>
+                    <div class="logo">
                         <h1><a href="/">jacksmith.xyz</a></h1>
                     </div>
-                    <div class="nav-links">
-                        <p><a href="/blog">posts</a></p>
-                        <p><a href="/about">about</a></p>
-                    </div>
+                    <ul class="nav-links">
+                        <li><a href="/blog">posts</a></li>
+                        <li><a href="/about">about</a></li>
+                    </ul>
                 </nav>
-            </div>
         </header>
         <main>{% block content %} {% endblock %}</main>
         <footer>
