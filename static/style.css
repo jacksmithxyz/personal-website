@@ -54,9 +54,15 @@ nav {
 }
 
 .nav-links a {
-    text-decoration: underline;
+    text-decoration: none;
     color: var(--text-color);
 }
+
+.nav-links a:hover {
+	color: var(--link-color);
+	transition: 0.2s;
+}
+
 
 footer {
     display: flex;
