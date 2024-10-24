@@ -148,6 +148,16 @@ a {
     text-decoration-thickness: 0.075em;
 }
 
+blockquote {
+	margin: 0;
+	border-left: solid;
+	border-color: #89b4fa;
+}
+
+blockquote p {
+	padding-left: 1rem;
+}
+
 img {
     max-width: 100%;
 }
