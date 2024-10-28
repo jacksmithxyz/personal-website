@@ -98,6 +98,14 @@ footer p {
 	color: var(--text-color);
 }
 
+.hero {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 2rem;
+}
+
 h1,
 h2,
 h3 {
@@ -191,8 +199,9 @@ ul {
 }
 
 .pfp {
-    width: 80%;
+    width: 120px;
     height: auto;
+	border-radius: 9999px;
 }
 
 @media screen and (max-width: 640px) {
