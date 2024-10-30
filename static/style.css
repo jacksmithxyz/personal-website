@@ -156,6 +156,7 @@ blockquote {
     margin: 0;
     border-left: solid;
     border-color: #89b4fa;
+    border-width: 2px;
 }
 
 blockquote p {
