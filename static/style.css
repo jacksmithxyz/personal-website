@@ -30,6 +30,8 @@ body {
         arial,
         sans-serif;
     font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     line-height: 1.65;
     background-color: var(--bg-color);
     color: var(--text-color);
