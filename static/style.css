@@ -187,7 +187,7 @@ ul {
 }
 
 .pfp {
-    width: 120px;
+    max-width: 48px;
     height: auto;
     border-radius: 9999px;
 }
