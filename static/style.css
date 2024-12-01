@@ -116,7 +116,6 @@ footer p {
 
 .hero p {
     margin-top: 0;
-    font-family: monospace;
 }
 
 h1,
@@ -138,7 +137,7 @@ h3 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.125rem;
     margin-bottom: 2rem;
 }
 
