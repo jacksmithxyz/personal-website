@@ -116,7 +116,7 @@ footer p {
 
 .hero p {
     margin-top: 0;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: monospace;
 }
 
 h1,
@@ -145,7 +145,6 @@ p {
 pre,
 code {
     font-family:
-        "IBM Plex Mono",
         Menlo,
         Consolas,
         Monaco,
