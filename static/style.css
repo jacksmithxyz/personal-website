@@ -3,10 +3,11 @@
 }
 
 :root {
-    --bg-color: #1e1e2e;
-    --text-color: #cdd6f4;
-    --subtext-color: #a6adc8;
-    --link-color: #cba6f7;
+    --bg-color: #161617;
+    --text-color: #c9c7cd;
+    --subtext-color: #c9c7cd;
+    --heading-color: #f5f5f5;
+    --link-color: #92a2d5;
 }
 
 body {
