@@ -1,3 +1,5 @@
+@import "font.css";
+
 * {
     box-sizing: border-box;
 }
@@ -145,13 +147,13 @@ p {
 pre,
 code {
     font-family:
+        "IBM Plex Mono",
         Menlo,
         Consolas,
         Monaco,
         Liberation Mono,
         Lucida Console,
         monospace;
-    font-size: 1rem;
 }
 
 pre {
@@ -160,6 +162,12 @@ pre {
     margin-top: 2rem;
     margin-bottom: 2.5rem;
     overflow-x: auto;
+}
+
+p > code {
+    background-color: #131314;
+    padding: 0.25rem;
+    border-radius: 5px;
 }
 
 a {
