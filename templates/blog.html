@@ -1,13 +1,15 @@
 {% extends "base.html" %} {% block content %}
 <div>
     <h2>Blog Posts</h2>
-    <p class="subtext">More of a little personal sanctuary than a blog. For actual polished articles, check out my
-        Medium or Substack. </p>
+    <p class="subtext">
+        More of a little personal sanctuary than a blog. For actual polished
+        articles, check out my Medium or Substack.
+    </p>
     <ul class="blog-posts">
         {% for page in section.pages %}
         <li class="blog-post">
             <p><a href="{{ page.permalink | safe }}">{{ page.title }}</a></p>
-            <p><code>{{ page.date | date(format="%d %B %Y") }}</code></p>
+            <p>{{ page.date | date(format="%d %B %Y") }}</p>
         </li>
         {% endfor %}
     </ul>
