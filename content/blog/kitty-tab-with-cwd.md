@@ -9,21 +9,23 @@ Of course I could use kitty's windows here instead of tabs - but I prefer to sta
 
 Fortunately, this is super easy to set up with kitty.
 
-In kitty's [documentation](https://sw.kovidgoyal.net/kitty/conf/), under [mappable actions](https://sw.kovidgoyal.net/kitty/actions/#tab-management) there's a command called `new_tab_with_cwd`. This is what we want. 
+In kitty's [documentation](https://sw.kovidgoyal.net/kitty/conf/), under [mappable actions](https://sw.kovidgoyal.net/kitty/actions/#tab-management) there's a command called `new_tab_with_cwd`. This is what we want.
 
 As you can see in the documentation, it doesn't have a default keymap - so we need to set this ourselves.
 
-Open up your `.config/kitty/kitty.conf` file (or create one if you don't already have it). 
+Open up your `.config/kitty/kitty.conf` file (or create one if you don't already have it).
 
 All we have to do is add the following line:
 
-`map [key] new_tab_with_cwd`. 
+`map [key] new_tab_with_cwd`.
 
 Replace `[key]` with the key or combination of keys you want to use as a shortcut, for example:
 
-`map cmd+shift+t`. I opted for `cmd+shift+t` as `cmd+t` opens up a new tab, so this makes it pretty easy to remember.
+`map cmd+shift+t`.
 
-Also make sure the keybind you choose isn't already set to something else first. 
+I opted for `cmd+shift+t` as `cmd+t` opens up a new tab, so this makes it pretty easy to remember.
+
+Also make sure the keybind you choose isn't already set to something else first.
 
 And that's it! You can now open up a new kitty tab in your current working directory, without needing to `cd` back into it or scroll through your command line history.
 
