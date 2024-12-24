@@ -17,16 +17,4 @@
         >).
     </p>
 </div>
-<div>
-    <h2>Recent Posts 📝</h2>
-    {% set blog_section = get_section(path="blog/_index.md") %}
-    <ul class="blog-posts">
-        {% for page in blog_section.pages | slice(end=5) %}
-        <li class="blog-post">
-            <p><a href="{{ page.permalink | safe }}">{{ page.title }}</a></p>
-        </li>
-        {% endfor %}
-    </ul>
-    <p></p>
-</div>
 {% endblock content %}
