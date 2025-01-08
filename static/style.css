@@ -172,6 +172,10 @@ p > code {
     border-radius: 5px;
 }
 
+code {
+    font-size: 1rem;
+}
+
 a {
     color: var(--link-color);
     text-underline-offset: 0.175em;
