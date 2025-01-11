@@ -205,7 +205,12 @@ img {
 }
 
 .blog-post {
-    margin-bottom: 2rem;
+    margin-bottom: 2.75rem;
+}
+
+.font-mono {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
 }
 
 .blog-post p {

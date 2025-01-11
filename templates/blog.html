@@ -9,7 +9,7 @@
         {% for page in section.pages %}
         <li class="blog-post">
             <p><a href="{{ page.permalink | safe }}">{{ page.title }}</a></p>
-            <p>{{ page.date | date(format="%d %B %Y") }}</p>
+            <p class="font-mono">{{ page.date | date(format="%d %B %Y") }}</p>
         </li>
         {% endfor %}
     </ul>
