@@ -1,19 +1,17 @@
 {% extends "base.html" %} {% block content %}
 <div>
-    <h2>Blog Posts</h2>
-    <p class="subtext">
-        More of a little personal sanctuary than a blog. For actual polished
-        articles, check out my
-        <a href="https://medium.com/@jacksmithxyz">Medium</a> or Substack.
-    </p>
-    <ul class="blog-posts">
-        {% for page in section.pages %}
-        <li class="blog-post">
-            <p><a href="{{ page.permalink | safe }}">{{ page.title }}</a></p>
-            <p class="font-mono">{{ page.date | date(format="%d %B %Y") }}</p>
-        </li>
-        {% endfor %}
-    </ul>
-    <p></p>
+  <h2>Blog Posts</h2>
+  <p class="subtext">
+    Technical posts on programming, developer tooling, etc.
+  </p>
+  <ul class="blog-posts">
+    {% for page in section.pages %}
+    <li class="blog-post">
+      <p><a href="{{ page.permalink | safe }}">{{ page.title }}</a></p>
+      <p class="font-mono">{{ page.date | date(format="%d %B %Y") }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  <p></p>
 </div>
 {% endblock content %}
