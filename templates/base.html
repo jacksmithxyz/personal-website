@@ -1,65 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <title>Jack Smith</title>
-        <link rel="stylesheet" href="/style.css" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Jack Smith</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  </head>
 
-    <body>
-        <header>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>{% block content %} {% endblock %}</main>
-        <footer>
-            <div>
-                <h3>Connect</h3>
-                <ul class="social-links">
-                    <li>
-                        <a
-                            href="https://x.com/jacksmithxyz_"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >X</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            href="https://github.com/jacksmithxyz"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >GitHub</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            href="https://t.me/jacksmithxyz"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >Telegram</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            href="https://youtube.com/@jacksmithxyz"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >YouTube</a
-                        >
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <p>&copy; 2024 Jack Smith.</p>
-                <p>Powered by <a href="https://www.getzola.org/">Zola</a></p>
-            </div>
-        </footer>
-    </body>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li>
+            <a
+              href="https://github.com/jacksmithxyz"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://afterhoursresearch.substack.com/welcome"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Newsletter</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>{% block content %} {% endblock %}</main>
+    <footer>
+        <div class="social-links">
+            <p><a
+                href="https://x.com/jacksmithxyz_"
+                target="_blank"
+                rel="noopener noreferrer"
+                >X</a
+              ></p>
+              <p>
+                <a
+            href="https://t.me/jacksmithxyz"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Telegram</a
+          >
+              </p>
+        </div>
+      <div>
+        <p>Powered by <a href="https://www.getzola.org/">Zola</a></p>
+      </div>
+    </footer>
+  </body>
 </html>
