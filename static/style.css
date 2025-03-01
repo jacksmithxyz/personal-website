@@ -5,11 +5,10 @@
 }
 
 :root {
-    --bg-color: #161617;
-    --text-color: #c9c7cd;
-    --subtext-color: #b4b1ba;
-    --heading-color: #f5f5f5;
-    --link-color: #92a2d5;
+    --bg-color: oklch(0.21 0.006 285.885);
+    --text-color: oklch(0.92 0.004 286.32);
+    --subtext-color: oklch(0.705 0.015 286.067);
+    --link-color: oklch(0.785 0.115 274.713);
 }
 
 body {
@@ -17,19 +16,12 @@ body {
     margin: 0 auto;
     padding: 2rem;
     font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        avenir next,
-        avenir,
-        segoe ui,
-        helvetica neue,
-        helvetica,
-        Cantarell,
-        Ubuntu,
-        roboto,
-        noto,
-        arial,
-        sans-serif;
+        Menlo,
+        Consolas,
+        Monaco,
+        Liberation Mono,
+        Lucida Console,
+        monospace;
     font-size: 1rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -38,98 +30,121 @@ body {
     color: var(--text-color);
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
+a {
+    font-size: 1rem;
 }
 
-.nav-links {
-    list-style-type: none;
+header {
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    list-style: none;
     padding: 0;
-    margin-top: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-group {
+    color: var(--subtext-color);
     display: flex;
     gap: 2rem;
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: var(--text-color);
-    transition: 0.2s;
+.home-link {
+    color: oklch(0.92 0.004 286.32);
 }
 
-.nav-links a:hover {
-    color: var(--link-color);
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    color: oklch(0.92 0.004 286.32);
 }
 
 footer {
     display: flex;
-    flex-direction: column;
-}
-
-footer h3 {
-    margin-bottom: 0.5rem;
-}
-
-footer p {
-    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .social-links {
     display: flex;
-    gap: 1rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer a {
+    font-size: 1rem;
+    color: var(--subtext-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--text-color);
 }
 
 .subtext {
+    font-size: 1rem;
     color: var(--subtext-color);
 }
 
 .hero {
-    margin-top: 1rem;
-}
-
-.hero h2 {
-    font-weight: normal;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
 .hero p {
+    color: var(--subtext-color);
     margin-top: 0;
+}
+
+.posts-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.post-description {
+    font-size: 1rem;
+    color: var(--subtext-color);
+}
+
+time {
+    font-size: 0.875rem;
+    color: var(--subtext-color);
 }
 
 h1,
 h2,
 h3 {
-    color: var(--heading-color);
+    font-weight: 500;
+    letter-spacing: -0.015em;
 }
 
 h1 {
-    font-size: 2rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-}
-
-h3 {
     font-size: 1.25rem;
 }
 
-p {
+h2 {
     font-size: 1.125rem;
-    margin-bottom: 2rem;
 }
 
-pre,
-code {
-    font-family:
-        "IBM Plex Mono",
-        Menlo,
-        Consolas,
-        Monaco,
-        Liberation Mono,
-        Lucida Console,
-        monospace;
+p {
+    margin-bottom: 2rem;
 }
 
 pre {
@@ -141,8 +156,9 @@ pre {
 }
 
 p > code {
-    background-color: #131314;
-    padding: 0.25rem;
+    background-color: oklch(0.21 0.006 285.885);
+    color: oklch(0.871 0.006 286.286);
+    padding: 0.175rem 0.25rem;
     border-radius: 5px;
 }
 
@@ -159,7 +175,7 @@ a {
 blockquote {
     margin: 0;
     border-left: solid;
-    border-color: #aca1ff;
+    border-color: oklch(0.606 0.25 292.717);
     border-width: 2px;
 }
 
@@ -174,7 +190,7 @@ img {
 .blog-posts {
     list-style: none;
     padding-left: 0;
-    margin-top: 0rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -182,13 +198,12 @@ img {
     margin-bottom: 2.75rem;
 }
 
-.font-mono {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 1rem;
-}
-
 .blog-post p {
     margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.post h1 {
     margin-bottom: 0;
 }
 
