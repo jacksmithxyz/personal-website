@@ -11,7 +11,7 @@ E.g. `int *p` would be a variable `p`, which holds a pointer to an int variable.
 
 So therefore `int *p = &i` basically stores the memory address of `i` into the variable `p`.
 
-The `*` can also be used to dereference variables - in other words, get the value stored at a certain memory address.
+The `*` can also be used to dereference variables - in other words, get the value stored at a certain memory address. This memory address is a virtual memory address - not a physical location in RAM. The virtual address is then mapped to an actual physical location at the OS level (from what I understand).
 
 So let's see this in an example.
 
@@ -36,7 +36,9 @@ However unlike us just copying the value, we are actually getting the exact memo
 
 This means we can use this address to dereference it and perform adjustments to it inside of a function, and affect it outside of the function.
 
-When I manipulate a value inside of this function, I am manipulating it with `*`. So this means I am actually getting the value stored at the address and directly manipulating it(?).
+When I manipulate a value inside of this function, I am manipulating it with `*`. So this means I am actually getting the value stored at the address and directly manipulating it.
+
+Null pointers are basically pointers which contain `NULL` as a value. Null like in most other programming languages represents the absence of a value. In C, it seems like this acts like a special value. For example doing `int *p = NULL;` isn't really assigning any value - `NULL` is not a memory address pointing to a value of type int as it suggests, so this is what makes it a special kind of value. It is used to create a pointer which points to "nothing".
 
 Questions:
 
