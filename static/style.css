@@ -16,12 +16,19 @@ body {
     margin: 0 auto;
     padding: 2rem;
     font-family:
-        Menlo,
-        Consolas,
-        Monaco,
-        Liberation Mono,
-        Lucida Console,
-        monospace;
+        -apple-system,
+        BlinkMacSystemFont,
+        avenir next,
+        avenir,
+        segoe ui,
+        helvetica neue,
+        Cantarell,
+        Ubuntu,
+        roboto,
+        noto,
+        helvetica,
+        arial,
+        sans-serif;
     font-size: 1rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -30,7 +37,15 @@ body {
     color: var(--text-color);
 }
 
-a {
+pre,
+code {
+    font-family:
+        Menlo,
+        Consolas,
+        Monaco,
+        Liberation Mono,
+        Lucida Console,
+        monospace;
     font-size: 1rem;
 }
 
@@ -45,6 +60,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1rem;
 }
 
 .nav-group {
@@ -136,11 +152,11 @@ h3 {
 }
 
 h1 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
 }
 
 p {
