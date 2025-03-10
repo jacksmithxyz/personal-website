@@ -3,7 +3,7 @@ title = "Delta time made simple"
 date = 2025-03-10
 +++
 
-delta time = time elapsed since the last frame of execution.
+Delta time = time elapsed since the last frame of execution.
 simple! pack it up boys!
 
 Really, though, it is a bit more complicated than that.
