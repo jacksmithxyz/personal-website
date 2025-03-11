@@ -10,7 +10,7 @@ Really though, it's a bit more complicated than that.
 
 Delta time is a way to make behaviour consistent across different framerates in games. This can be difficult to visualize, or wrap your head around at first.
 
-Let's get into what happens when you don't use deltatime, and how we can use it.
+Let's get into what happens when you don't use delta time, and how we can use it.
 
 ## Computers running at different frame rates
 
