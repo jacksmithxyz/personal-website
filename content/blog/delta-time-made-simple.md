@@ -8,15 +8,15 @@ simple! pack it up boys!
 
 Really, though, it is a bit more complicated than that.
 
-Delta time is a way to make behaviour consistent across different framerates in games. This can be difficult to visualize, or wrap your head around at first. so let’s look at an example.
+Delta time is a way to make behaviour consistent across different framerates in games. This can be difficult to visualize, or wrap your head around at first. So let’s look at an example.
 
 ## Computers running at different frame rates
 
 Let’s say you have a computer running at 60 FPS.
 
-You want to move your character from the bottom to the top of the screen, and when the arrow up key is pressed, your character moves 10 pixels up. the screen is 100 pixels tall.
+You want to move your character from the bottom to the top of the screen, and when the arrow up key is pressed, your character moves 10 pixels up. The screen is 100 pixels tall.
 
-Let’s do some math - i’ll try my best to keep this very simple.
+Let’s do some math - I’ll try my best to keep this very simple.
 
 Every second, our game updates 60 times (60 fps).
 
