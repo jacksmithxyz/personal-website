@@ -22,7 +22,7 @@ Every second, our game updates 60 times (60 fps).
 
 This means that there is a new frame every 1 (second) / 60 (frames) = 0.01667 seconds.
 
-A user presses a key -> character goes 10 pixels up. one frame passes (0.01667 seconds), and the user is still pressing the key, so the character goes up.
+A user presses a key -> character goes 10 pixels up. One frame passes (0.01667 seconds), and the user is still pressing the key, so the character goes up.
 
 This repeats until it hits the top of the screen - aka after 10 * 0.01667 = 0.1667 seconds.
 
@@ -38,7 +38,7 @@ This repeats until the character hits the top of the screen - aka after 10 * 0.0
 
 So this means for a character to travel the same amount of distance on screen, it actually takes *double* the time on the slower computer.
 
-This isn’t good as we want our gameplay to be consistent no mater what the frame rate is.
+This isn’t good as we want our gameplay to be consistent no matter what the frame rate is.
 
 ## So where does delta time come into this?
 
