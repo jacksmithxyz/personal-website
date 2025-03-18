@@ -39,7 +39,3 @@ This means we can use this address to dereference it and perform adjustments to 
 When I manipulate a value inside of this function, I am manipulating it with `*`. So this means I am actually getting the value stored at the address and directly manipulating it.
 
 Null pointers are basically pointers which contain `NULL` as a value. Null like in most other programming languages represents the absence of a value. In C, it seems like this acts like a special value. For example doing `int *p = NULL;` isn't really assigning any value - `NULL` is not a memory address pointing to a value of type int as it suggests, so this is what makes it a special kind of value. It is used to create a pointer which points to "nothing".
-
-Questions:
-
-Why do we have to do it like this? Why *can't* i just manipulate `i` directly instead? How come I designate a type with `*p` but then using it `*p` doesn't mean the address but means the value?
