@@ -1,5 +1,5 @@
 +++
-title = "Neovim Configuration: One File To Rule Them All"
+title = "Crafting a Single File Neovim Config"
 date = 2025-01-09
 +++
 
