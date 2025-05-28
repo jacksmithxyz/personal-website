@@ -57,6 +57,6 @@ This in combination with being super easy to install, super easy to start a new 
 
 I haven't gone into probably half of the other features uv has and what it is capable of - but I can only speak to my experiences and what I've been using it for.
 
-If you want to check out uv and try it for yourself, head to their [docs](https://docs.astral.sh/uv/) and see what you think. If you found this post useful, you might want to follow me on [X](https://x.com/teafunc) or check out my other [posts](https://jacksmith.xyz/blog).
+If you want to check out uv and try it for yourself, head to their [docs](https://docs.astral.sh/uv/) and see what you think. If you found this post useful, check out my other [posts](https://jacksmith.xyz/blog).
 
 Thanks for reading!
