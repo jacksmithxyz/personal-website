@@ -2,8 +2,8 @@
 <div class="hero">
     <img class="pfp" src="pfp.webp" alt="picture of me." />
     <div class="hero-content">
-        <h1>Jack Smith</h1>
-        <p>Intentional Software Development</p>
+        <h1>jacksmith.xyz</h1>
+        <p>theorycrafting, programming</p>
     </div>
 </div>
 
@@ -20,5 +20,26 @@
         my craft. Outside of work, I’m building a future together with my
         beautiful fiancée.
     </p>
+</div>
+
+<div>
+    <div class="posts-header">
+        <h1>Recent Posts</h1>
+        <a href="/blog">View All →</a>
+    </div>
+    <ul class="blog-posts">
+        {% set blog_section = get_section(path="blog/_index.md") %} {% for post
+        in blog_section.pages | slice(end=3) %}
+        <li class="blog-post">
+            <div class="post-preview">
+                <div>
+                    <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
+                    <time>{{ post.date | date(format="%B %d, %Y") }}</time>
+                </div>
+                <p>{{ post.description }}</p>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
 {% endblock content %}
