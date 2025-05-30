@@ -1,5 +1,6 @@
 +++
 title = "Delta time made simple"
+description = "Why do we need delta time to create consistent game behaviour?"
 date = 2025-03-10
 +++
 

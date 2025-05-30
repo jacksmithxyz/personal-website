@@ -1,5 +1,6 @@
 +++
 title = "Reflections on building ani.town"
+description = "Building a consumer-facing app with SvelteKit, Supabase, and the AniList API"
 date = 2025-05-08
 +++
 
