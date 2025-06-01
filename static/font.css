@@ -1,16 +1,4 @@
 @font-face {
-    font-family: "Inter";
-    font-weight: normal;
-    src: url("inter-latin-400-normal.woff2");
-}
-
-@font-face {
-    font-family: "Inter";
-    font-weight: bold;
-    src: url("inter-latin-700-normal.woff2");
-}
-
-@font-face {
     font-family: "JetBrains Mono";
     src: url("jetbrains-mono-latin-400-normal.woff2");
 }
