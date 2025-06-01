@@ -16,7 +16,7 @@ Let’s get into it.
 
 ## What is auto-didactic learning?
 
-Auto-didacticism is the practice of learning with no formal structure or curriculum in place. There’s no specific topics, order, or exams. A good fictional example of an auto-didactic learner is Tyrion Lannister from Game of Thrones.
+Auto-didacticism is the practice of learning with no formal structure or curriculum in place. There’s no specific topics, order, or exams. A good fictional example of an auto-didactic learner is Tyrion Lannister from *Game of Thrones*.
 
 ![](tyrion.jpg)
 
