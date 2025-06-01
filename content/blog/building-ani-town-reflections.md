@@ -8,9 +8,6 @@ I recently built out [ani.town](https://ani.town), a website where users can sav
 
 I built it with SvelteKit and Supabase, so just wanted to share some of my reflections on the process, what I struggled with, learnt, and more.
 
-relfections on sveltekit and supabase
-
-
 ## Auth
 
 I learnt about JWT auth, and options to handle tokens server-side vs client-side.
