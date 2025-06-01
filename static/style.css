@@ -5,10 +5,10 @@
 }
 
 :root {
-    --bg-color: oklch(0.21 0.006 285.885);
-    --text-color: oklch(0.92 0.004 286.32);
-    --subtext-color: oklch(0.705 0.015 286.067);
-    --link-color: oklch(0.785 0.115 274.713);
+    --bg-color: #181825;
+    --text-color: #f5f5f5;
+    --subtext-color: #7f849c;
+    --link-color: #cba6f7;
 }
 
 body {
@@ -39,13 +39,13 @@ body {
 pre,
 code {
     font-family:
+        "JetBrains Mono",
         Menlo,
         Consolas,
         Monaco,
         Liberation Mono,
         Lucida Console,
         monospace;
-    font-size: 1rem;
 }
 
 header {
@@ -68,10 +68,6 @@ nav ul {
     gap: 2rem;
 }
 
-.home-link {
-    color: oklch(0.92 0.004 286.32);
-}
-
 nav a {
     text-decoration: none;
     color: inherit;
@@ -82,9 +78,6 @@ nav a:hover {
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .social-links {
@@ -112,8 +105,9 @@ footer a:hover {
     margin-top: 2.5rem;
     margin-bottom: 2rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 1.75rem;
+    gap: 0.5rem;
 }
 
 .hero h1 {
@@ -176,8 +170,8 @@ pre {
 }
 
 p > code {
-    background-color: oklch(0.21 0.006 285.885);
-    color: oklch(0.871 0.006 286.286);
+    background-color: #1e1e2e;
+    color: #f5f5f5;
     padding: 0.175rem 0.25rem;
     border-radius: 5px;
 }
@@ -188,6 +182,7 @@ code {
 
 a {
     color: var(--link-color);
+    text-decoration: none;
     text-underline-offset: 0.175em;
     text-decoration-thickness: 0.075em;
 }
