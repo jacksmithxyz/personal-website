@@ -12,9 +12,6 @@
 }
 
 body {
-    max-width: 42rem;
-    margin: 0 auto;
-    padding: 2rem;
     font-family:
         "JetBrains Mono",
         -apple-system,
@@ -32,8 +29,15 @@ body {
         sans-serif;
     font-size: 1rem;
     line-height: 1.65;
+    margin: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
+}
+
+.container {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 pre,
@@ -78,6 +82,7 @@ a:hover {
 }
 
 footer {
+    background-color: #11111b;
 }
 
 .social-links {
