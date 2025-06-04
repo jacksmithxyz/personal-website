@@ -131,11 +131,6 @@ The last couple parts of the setup inside of `spec` sets the actual Lazy colorsc
 After this section I've added the keybinds for the plugins installed and any other settings.
 
 ```lua
-require("lspconfig").lua_ls.setup{}
-require("lspconfig").pyright.setup{}
-require("lspconfig").ruff.setup{}
-require("lspconfig").rust_analyzer.setup{}
-
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
@@ -148,9 +143,7 @@ vim.keymap.set('n', '<leader>tt', ':NvimTreeToggle<cr>')
 vim.cmd([[colorscheme catppuccin]])
 ```
 
-The first section of the code sets up the LSP servers I've installed with Mason. If you aren't familiar with Mason, it's a plugin for installing LSP servers.
-
-After this I set up the keybinds for any plugins that need it - in this case Telescope. There's also a keybind that I've set up here which displays a list of any warnings/errors in a file.
+In the first section of the code I set up the keybinds for any plugins that need it - in this case Telescope. There's also a keybind that I've set up here which displays a list of any warnings/errors in a file.
 
 This is what I use to check for any errors in my code, rather than the automatic checking I mentioned previously. I also set a keybind to toggle the file tree on and off.
 
