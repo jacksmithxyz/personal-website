@@ -2,8 +2,6 @@
 template = "projects.html"
 +++
 
-# Under Construction 🚧
-
 # Personal projects
 
 These are just some side projects I've created for fun, or to help me learn certain topics.
