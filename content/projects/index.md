@@ -16,6 +16,8 @@ Key learnings: JWT Authentication, setting up/modelling PostgreSQL databases
 
 # Professional projects
 
-I have done a reasonable amount of software development professionally, including building web applications, and setting up data scraping and cleaning scripts for GraphQL data.
+My professional software development experience includes building web applications, creating data scraping/cleaning scripts, and working with GraphQL.
 
-Python is the language I'm most proficient with, followed by most of the frontend web stack. I'm also learning C.
+I am proficient with Python, JS/TS, and most of the frontend web stack.
+
+Most of my professional code is proprietary and/or archived.
