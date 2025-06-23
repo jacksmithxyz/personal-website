@@ -1,19 +1,16 @@
-@import "font.css";
-
 * {
     box-sizing: border-box;
 }
 
 :root {
-    --bg-color: #181825;
-    --text-color: #bac2de;
-    --subtext-color: #7f849c;
+    --bg-color: oklch(98.5% 0 0);
+    --text-color: oklch(21% 0.006 285.885);
+    --subtext-color: oklch(44.2% 0.017 285.786);
     --link-color: #cba6f7;
 }
 
 body {
     font-family:
-        "JetBrains Mono",
         -apple-system,
         BlinkMacSystemFont,
         avenir next,
@@ -43,13 +40,13 @@ body {
 pre,
 code {
     font-family:
-        "JetBrains Mono",
         Menlo,
         Consolas,
         Monaco,
         Liberation Mono,
         Lucida Console,
         monospace;
+    font-size: 0.875rem;
 }
 
 header {
@@ -75,10 +72,6 @@ nav ul {
 nav a {
     text-decoration: none;
     color: inherit;
-}
-
-a:hover {
-    color: oklch(0.92 0.004 286.32);
 }
 
 footer {
@@ -153,7 +146,6 @@ h3,
 h4,
 h5,
 h6 {
-    color: #cdd6f4;
     letter-spacing: -0.015em;
 }
 
@@ -184,20 +176,11 @@ p > code {
     border-radius: 5px;
 }
 
-code {
-    font-size: 1rem;
-}
-
 a {
-    color: var(--link-color);
-    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
     text-underline-offset: 0.175em;
     text-decoration-thickness: 0.075em;
-}
-
-b,
-strong {
-    color: #cdd6f4;
 }
 
 blockquote {
