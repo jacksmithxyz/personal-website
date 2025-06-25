@@ -3,9 +3,9 @@
 }
 
 :root {
-    --bg-color: oklch(98.5% 0 0);
-    --text-color: oklch(21% 0.006 285.885);
-    --subtext-color: oklch(44.2% 0.017 285.786);
+    --bg-color: oklch(21% 0.006 285.885);
+    --text-color: oklch(96.7% 0.001 286.375);
+    --subtext-color: oklch(55.2% 0.016 285.938);
     --link-color: #cba6f7;
 }
 
@@ -29,6 +29,8 @@ body {
     margin: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
@@ -72,10 +74,6 @@ nav ul {
 nav a {
     text-decoration: none;
     color: inherit;
-}
-
-footer {
-    background-color: oklch(96.7% 0.001 286.375);
 }
 
 .social-links {
