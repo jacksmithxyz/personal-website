@@ -17,6 +17,7 @@ body {
         avenir,
         segoe ui,
         helvetica neue,
+        Adwaita Sans,
         Cantarell,
         Ubuntu,
         roboto,
@@ -29,8 +30,6 @@ body {
     margin: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
