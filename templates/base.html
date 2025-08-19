@@ -1,56 +1,39 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <title>jacksmith.xyz</title>
-        <link rel="stylesheet" href="/style.css" />
-        <link rel="icon" type="image/x-icon" href="/grogu.png" />
-        <script
-            defer
-            src="https://cloud.umami.is/script.js"
-            data-website-id="f38e3599-6e0e-45a9-bfd7-37a75a372a04"
-        ></script>
-    </head>
-    <body>
-        <div class="container">
-            <header>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Jack Smith</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" type="image/x-icon" href="/grogu.png" />
+    <script defer src="https://cloud.umami.is/script.js"
+        data-website-id="f38e3599-6e0e-45a9-bfd7-37a75a372a04"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <img class="pfp" src="/hunter.gif" alt="picture of me." />
+            </div>
+            <div>
                 <nav>
-                    <ul>
-                        <li><a href="/">Home 🏠</a></li>
-                        <li><a href="/blog">Blog 📝</a></li>
-                    </ul>
+                    <a href="/">Jack Smith</a>
                 </nav>
-            </header>
-            <main>{% block content %} {% endblock %}</main>
-            <footer>
-                <div class="social-links">
-                    <a
-                        href="mailto:jacksmithxyz@protonmail.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >Email</a
-                    >
-                    <a
-                        href="https://github.com/jacksmithxyz"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >GitHub</a
-                    >
-                    <a
-                        href="https://medium.com/@jacksmithxyz"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >Medium</a
-                    >
-                    <a
-                        href="https://youtube.com/@jacksmithxyz"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >YouTube</a
-                    >
-                </div>
-            </footer>
-        </div>
-    </body>
+                <p>A devlog into game development, graphics, and more...</p>
+            </div>
+        </header>
+        <main>{% block content %} {% endblock %}</main>
+        <footer>
+            <div class="social-links">
+                <a href="mailto:jacksmithxyz@protonmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+                <a href="https://github.com/jacksmithxyz" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://medium.com/@jacksmithxyz" target="_blank" rel="noopener noreferrer">Medium</a>
+                <a href="https://youtube.com/@jacksmithxyz" target="_blank" rel="noopener noreferrer">YouTube</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>

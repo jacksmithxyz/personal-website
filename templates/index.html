@@ -1,37 +1,23 @@
 {% extends "base.html" %} {% block content %}
-<div class="hero">
-    <img class="pfp" src="pfp.webp" alt="picture of me." />
-    <h1>jacksmith.xyz</h1>
-    <p>kaizen 改善</p>
-</div>
-
-<div class="about">
-    <h3>About me</h3>
+<div>
     <p>
-        Hi there, I'm Jack. Welcome to my personal website. I'm a software
-        developer and writer from the UK.
+        Hi I’m Jack 👋 welcome to my personal website. I’ve spent the last few
+        years working at crypto startups doing web development and other things. I'm currently focused
+        on game development with Unity and C#.
     </p>
     <p>
-        I like computers and software, and am in the ever-constant process of
-        learning more about them. I like to share what I'm learning about here.
+        This blog is where I share my journey and learnings, as well as any of my creative endeavours.
+        Grab a cup of tea and get cozy, I hope you enjoy your stay. 🍵
     </p>
 </div>
 
 <div>
-    <div class="posts-header">
-        <h3>Recent posts</h3>
-        <a href="/blog">View All →</a>
-    </div>
+    <h3>Recent posts</h3>
     <ul class="blog-posts">
         {% set blog_section = get_section(path="blog/_index.md") %} {% for post
-        in blog_section.pages | slice(end=3) %}
+        in blog_section.pages %}
         <li class="blog-post">
-            <div class="post-preview">
-                <div>
-                    <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
-                    <time>{{ post.date | date(format="%B %d, %Y") }}</time>
-                </div>
-            </div>
+            <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
         </li>
         {% endfor %}
     </ul>
